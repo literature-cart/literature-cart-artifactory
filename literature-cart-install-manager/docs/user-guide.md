@@ -47,12 +47,39 @@ Kliknij powyższy link w przeglądarce — plik `.exe` zostanie pobrany na dysk 
 ## Uruchamianie instalatora Windows
 
 1. Otwórz folder z pobranym plikiem `Literature Cart Install Manager Setup.exe`.
-2. Kliknij dwukrotnie plik instalatora. Jeśli system Windows wyświetli okno ostrzegawcze **„Nieznany wydawca”**, kliknij **Więcej informacji** → **Uruchom mimo to**.
-3. Kreator instalacji NSIS poprowadzi Cię przez kolejne kroki:
-   - **Wybór języka** — instalator obsługuje język angielski (`en_US`).
-   - **Wybór folderu docelowego** — domyślnie aplikacja zostanie zainstalowana w `C:\Users\<użytkownik>\AppData\Local\literature-cart-install-manager`. Możesz zmienić lokalizację.
-   - **Skróty** — instalator może utworzyć skrót na pulpicie i w menu Start.
-4. Po zakończeniu instalacji zostaw zaznaczoną opcję **Uruchom Literature Cart Install Manager** i kliknij **Zakończ**.
+2. Kliknij dwukrotnie plik instalatora.
+
+### 1. Ostrzeżenie SmartScreen
+
+Instalator nie jest podpisany cyfrowo, dlatego przy pierwszym uruchomieniu system Windows może wyświetlić czerwone okno **„System Windows ochronił ten komputer”** (filtr Microsoft Defender SmartScreen).
+
+![SmartScreen — pierwszy ekran ostrzeżenia](screenshots/setup_1.png)
+
+Kliknij **Więcej informacji**, aby odsłonić dodatkowe opcje.
+
+![SmartScreen — po kliknięciu „Więcej informacji”](screenshots/setup_2.png)
+
+Kliknij **Uruchom mimo to** — instalator uruchomi się normalnie.
+
+### 2. Kreator instalacji NSIS
+
+Kreator instalacji poprowadzi Cię przez kolejne kroki. Interfejs kreatora jest w języku angielskim.
+
+**Ekran powitalny** — kliknij **Next**, aby przejść dalej.
+
+![Kreator instalacji — ekran powitalny](screenshots/setup_3.png)
+
+**Wybór folderu docelowego** — domyślnie aplikacja zostanie zainstalowana w `C:\Users\<użytkownik>\AppData\Local\literature-cart-install-manager`. Aby zmienić lokalizację, kliknij **Browse**, a następnie **Install**.
+
+![Kreator instalacji — wybór folderu docelowego](screenshots/setup_4.png)
+
+**Postęp instalacji** — poczekaj, aż pasek postępu dojdzie do końca.
+
+![Kreator instalacji — postęp instalacji](screenshots/setup_5.png)
+
+**Zakończenie instalacji** — zostaw zaznaczoną opcję **Run Literature Cart Install Manager** i kliknij **Finish**, aby od razu uruchomić aplikację.
+
+![Kreator instalacji — zakończenie](screenshots/setup_6.png)
 
 Instalator tworzy również wpis w rejestrze Windows, który umożliwia pełne odinstalowanie aplikacji przez **Panel sterowania → Programy i funkcje**.
 
