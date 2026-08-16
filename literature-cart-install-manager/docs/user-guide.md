@@ -50,7 +50,6 @@ Kliknij powyższy link w przeglądarce — plik `.exe` zostanie pobrany na dysk 
 2. Kliknij dwukrotnie plik instalatora. Jeśli system Windows wyświetli okno ostrzegawcze **„Nieznany wydawca”**, kliknij **Więcej informacji** → **Uruchom mimo to**.
 3. Kreator instalacji NSIS poprowadzi Cię przez kolejne kroki:
    - **Wybór języka** — instalator obsługuje język angielski (`en_US`).
-   - **Akceptacja licencji** — zapoznaj się z warunkami i potwierdź.
    - **Wybór folderu docelowego** — domyślnie aplikacja zostanie zainstalowana w `C:\Users\<użytkownik>\AppData\Local\literature-cart-install-manager`. Możesz zmienić lokalizację.
    - **Skróty** — instalator może utworzyć skrót na pulpicie i w menu Start.
 4. Po zakończeniu instalacji zostaw zaznaczoną opcję **Uruchom Literature Cart Install Manager** i kliknij **Zakończ**.
