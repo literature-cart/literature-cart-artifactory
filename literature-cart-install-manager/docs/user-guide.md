@@ -36,9 +36,7 @@ Aplikacja jest dostarczana jako instalator `Literature Cart Install Manager Setu
 
 Najnowszą wersję instalatora możesz pobrać bezpośrednio z repozytorium artefaktów:
 
-```text
-https://github.com/literature-cart/literature-cart-artifactory/raw/refs/heads/main/literature-cart-install-manager/latest/Literature%20Cart%20Install%20Manager%20Setup.exe
-```
+<https://github.com/literature-cart/literature-cart-artifactory/raw/refs/heads/main/literature-cart-install-manager/latest/Literature%20Cart%20Install%20Manager%20Setup.exe>
 
 Kliknij powyższy link w przeglądarce — plik `.exe` zostanie pobrany na dysk lokalny. Zalecamy zapisanie go w łatwo dostępnym miejscu, np. na Pulpicie lub w folderze `Pobrane`.
 
