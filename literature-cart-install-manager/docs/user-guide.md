@@ -25,6 +25,7 @@ Niniejszy dokument opisuje krok po kroku, jak pobrać, zainstalować, skonfiguro
 
 - System operacyjny: **Windows 10/11** (64-bit)
 - Dostęp do Internetu
+- **Osobne, dedykowane konto GMail dla aplikacji** — zaleca się utworzenie osobnego konta Google przeznaczonego wyłącznie dla aplikacji Literature Cart Install Manager. Konto to służy do logowania się w wbudowanej przeglądarce aplikacji, wykonywania operacji `clasp push` oraz zarządzania arkuszami Google Sheets. Używanie dedykowanego konta izoluje sesję aplikacji od osobistego konta Google i zapobiega konfliktom sesji.
 - Konto Google z dostępem do Google Drive / Google Sheets
 - Wolne miejsce na dysku: około 250 MB (aplikacja + Node.js portable)
 
@@ -172,6 +173,7 @@ Aby zainstalować skrypt GAS w nowym arkuszu Google:
 5. Sprawdź lub uzupełnij pole **ID projektu Apps Script**. Identyfikator znajdziesz w: `Rozszerzenia → Apps Script → Ustawienia projektu → Identyfikator skryptu`.
 6. Kliknij **Zainstaluj**. Aplikacja wykona `clasp push`, wypychając najnowsze pliki GAS do wskazanego projektu Apps Script.
 7. Po pomyślnej instalacji pojawi się zielony komunikat **Zainstalowano pomyślnie**, a nowa pozycja zostanie zapisana w liście instalacji.
+8. Po pomyślnej instalacji przycisk **Otwórz w przeglądarce** w Kroku 5 zostanie aktywowany. Kliknij go, aby otworzyć zainstalowany arkusz w domyślnej przeglądarce systemu (np. Chrome, Edge, Firefox). Przycisk pozostaje nieaktywny dopóki instalacja nie zakończy się sukcesem.
 
 > **Wskazówka:** jeśli masz już istniejący projekt Apps Script powiązany z arkuszem, zaleca się wypchnięcie do niego kodu, aby nie tworzyć dodatkowych projektów.
 
